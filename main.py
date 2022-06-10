@@ -20,7 +20,7 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
+        # assert isinstance(config["main"]["execute_steps"], list)
         steps_to_execute = config["main"]["execute_steps"]
 
     # Download step
@@ -61,7 +61,7 @@ def go(config: DictConfig):
                 "ks_alpha": config["data"]["ks_alpha"]
             },
         )
-        
+
 
     if "segregate" in steps_to_execute:
 
@@ -97,7 +97,7 @@ def go(config: DictConfig):
                 "stratify": config["data"]["stratify"]
             },
         )
-        
+
 
     if "evaluate" in steps_to_execute:
 
