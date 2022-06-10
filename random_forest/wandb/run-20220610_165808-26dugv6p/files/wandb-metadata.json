@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-06-10T20:58:09.529189",
+    "startedAt": "2022-06-10T20:58:08.249665",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/zhaohan/genre_classification/outputs/2022-06-10/16-56-36/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/zsun316/genre_classification.git",
+        "commit": "2693e346b21a7857b8ec92803078e50c96fb1857"
+    },
+    "email": "szh6615nku@gmail.com",
+    "root": "/Users/zhaohan/genre_classification",
+    "host": "v1040-wn-rt-a-6-137.campus-dynamic.uwaterloo.ca",
+    "username": "zhaohan",
+    "executable": "/Users/zhaohan/opt/anaconda3/envs/mlflow-228b7461a36db9fdf189240846c5e60f8a00f43f/bin/python"
+}

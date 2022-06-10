@@ -1,0 +1,15 @@
+[1m=================================================== test session starts ====================================================
+platform darwin -- Python 3.9.13, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /Users/zhaohan/opt/anaconda3/envs/mlflow-ac27bfbd1c9c7f44196540ba5c20cbd91d0a6d26/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/zhaohan/genre_classification/check_data
+[1mcollected 4 items                                                                                                          
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m===================================================== warnings summary =====================================================
+test_data.py::test_column_presence_and_type
+  /Users/zhaohan/opt/anaconda3/envs/mlflow-ac27bfbd1c9c7f44196540ba5c20cbd91d0a6d26/lib/python3.9/site-packages/_pytest/fixtures.py:932: DtypeWarning: Columns (16) have mixed types.Specify dtype option on import or set low_memory=False.
+    fixture_result = fixturefunc(**kwargs)
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m=============================================== [32m4 passed[39m, [33m[1m1 warning[22m in 4.18s ===============================================

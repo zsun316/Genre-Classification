@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.1-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-06-10T20:57:22.969700",
+    "startedAt": "2022-06-10T20:57:21.785749",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/zhaohan/opt/anaconda3/envs/mlflow-ac27bfbd1c9c7f44196540ba5c20cbd91d0a6d26/bin/pytest",
+    "git": {
+        "remote": "https://github.com/zsun316/genre_classification.git",
+        "commit": "2693e346b21a7857b8ec92803078e50c96fb1857"
+    },
+    "email": "szh6615nku@gmail.com",
+    "root": "/Users/zhaohan/genre_classification",
+    "host": "v1040-wn-rt-a-6-137.campus-dynamic.uwaterloo.ca",
+    "username": "zhaohan",
+    "executable": "/Users/zhaohan/opt/anaconda3/envs/mlflow-ac27bfbd1c9c7f44196540ba5c20cbd91d0a6d26/bin/python"
+}

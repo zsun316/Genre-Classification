@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhaohan/genre_classification/mlruns/0/6bfccce6a7514813bec9887fb6d0feff/artifacts
+end_time: 1654893457837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6bfccce6a7514813bec9887fb6d0feff
+run_uuid: 6bfccce6a7514813bec9887fb6d0feff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1654893434066
+status: 3
+tags: []
+user_id: zhaohan
