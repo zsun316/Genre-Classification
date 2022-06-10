@@ -39,4 +39,7 @@ segregate
    |-- run.py
 ```
 ## Running Files
-- $ mlflow run . [git repository path] -P hydra_options="main.project_name={project name}"
+- $ mlflow run [github URL] -v [version] -P ...
+- e.g. $ mlflow run https://github.com/giacomov/genre_classification.git \
+             -v 1.0.0 \
+             -P hydra_options="main.project_name=remote_execution"
