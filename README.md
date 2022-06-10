@@ -41,6 +41,8 @@ segregate
 ## Running Files
 - ```$ mlflow run [github URL] -v [version] -P ...```
 - e.g.
-```$ mlflow run https://github.com/giacomov/genre_classification.git \
+```
+$ mlflow run [github URL] \
              -v 1.0.0 \
-             -P hydra_options="main.project_name=remote_execution"```
+             -P hydra_options="main.project_name=remote_execution"
+```
